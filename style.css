@@ -49,7 +49,21 @@
     color: black;
     background-color:aqua ;
   }
-  
+/*  style login button*/
+   .login-button{
+    display: flex; 
+  }
+  .login-button a{
+    padding: 6px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 70px;
+    text-decoration: none;
+  }
+  .login-button a:hover{
+    background-color: #ceb5b5;
+    color: black;
+  }
   /* Hero section styles */
   #hero {
     background-image: url('images/hero-background.jpg');
