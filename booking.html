@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="routes.html">Routes</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="fares.html">Fares</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="booking">
+      <div class="container-pages">
+        <h1>Booking</h1>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+  
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" required>
+
+          <label for="route">Route</label>
+          <select id="route" name="route" required>
+            <option value="">Select a route</option>
+            <option value="Mumbai to Delhi">Mumbai to Delhi</option>
+            <option value="Kolkata to Chennai">Kolkata to Chennai</option>
+            <option value="Bengaluru to Hyderabad">Bengaluru to Hyderabad</option>
+            <option value="Delhi to Jaipur">Delhi to Jaipur</option>
+            <option value="Chennai to Bangalore">Chennai to Bangalore</option>
+          </select>
+
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+
+          <label for="passengers">Number of Passengers</label>
+          <input type="number" id="passengers" name="passengers" min="1" required>
+
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Bus Ticket Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
